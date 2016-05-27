@@ -1,0 +1,32 @@
+/*
+* {
+    border: 1px solid black;
+}
+*/
+
+body {
+    background-color: #FFFFFF;
+    width: 700px;
+    @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+    margin: 0px auto;
+}
+
+#title {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+#linkList {
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.link {
+    display: inline-block;
+    margin: 0px 23px 0px 23px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
