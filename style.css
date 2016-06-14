@@ -2,8 +2,12 @@ body {
     background-color: #FFFFFF;
     width: 800px;
     @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
-    padding-top: 200px;
-    margin: 0px auto;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 #title {
