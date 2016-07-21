@@ -1,5 +1,13 @@
+html {
+    
+    background: url(images/background.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 body {
-    background-color: #FFFFFF;
     @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
     margin: 0px auto;
 }
@@ -18,8 +26,10 @@ body {
 
 .inner {
     margin-left: auto;
-    margin-right: auto; 
-    width: /*whatever width you want*/;
+    margin-right: auto;
+    width: 800px; 
+    background-color: rgba(255,255,255,0.6);
+
 }
 
 p {
