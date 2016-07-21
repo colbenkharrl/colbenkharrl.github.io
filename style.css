@@ -1,20 +1,38 @@
 body {
     background-color: #FFFFFF;
-    width: 800px;
     @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
-    margin: auto;
+    margin: 0px auto;
 }
 
-#title {
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto; 
+    width: /*whatever width you want*/;
+}
+
+p {
     font-family: 'Lato', sans-serif;
-	font-size: 40px;
-	font-weight: 300;
-	color: black;
-	text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    color: black;
+    text-align: center;
 }
 
 #linkList {
-    margin: auto;
+    margin: 0px auto;
+    width: 800px;
     padding: 0px;
 }
 
