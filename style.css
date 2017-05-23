@@ -1,72 +1,10 @@
-html {
-    
-    background: url(images/background.jpg);
-    -webkit-background-size: cover;
- -    -moz-background-size: cover;
- -    -o-background-size: cover;
- -    background-size: cover;
+body { 
+    padding-top: 65px; 
 }
 
-body {
-    @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
-    margin: 0px auto;
-}
-
-.outer {
-    display: table;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-}
-
-.middle {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.inner {
-    margin-left: auto;
-    margin-right: auto;
-    width: 800px; 
-    background-color: rgba(255,255,255,0.7);
-    border-radius: 10px;
-}
-
-p {
-    font-family: 'Lato', sans-serif;
-    font-size: 40px;
-    font-weight: 300;
-    color: black;
-    text-align: center;
-}
-
-#linkList {
-    margin: 0px auto;
-    width: 800px;
-    padding: 0px;
-}
-
-.link {
-    display: inline-block;
-    margin: 0px 23px 0px 23px;
-}
-
-.logo {
-    width: 50px;
-    height: 50px;
-}
-
-a:link {
-    text-decoration: none;
-    color: black;
-}
-
-a:hover {
-    text-decoration: none;
-    color: black;
-}
-
-a:visited {
-    text-decoration: none;
-    color: black;
+.anchor { 
+  display: block;
+  position: relative;
+  top: -130px;
+  visibility: hidden;
 }
