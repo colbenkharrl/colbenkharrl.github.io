@@ -1,0 +1,29 @@
+{
+	"boxes": [
+		{
+			"title": "About",
+			"icon": "",
+			"description": "",
+			"link": ""
+		},
+		{
+			"title": "Education",
+			"icon": "",
+			"description": "",
+			"image": "url(images/tempe.png)",
+			"link": ""
+		},
+		{
+			"title": "Experience",
+			"icon": "",
+			"description": "",
+			"link": ""
+		},
+		{
+			"title": "Data Visualization",
+			"icon": "",
+			"description": "",
+			"link": ""
+		}
+	]
+}
