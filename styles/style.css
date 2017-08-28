@@ -48,6 +48,7 @@ html {
 
 #occ {
 	fill: #89b6ff;
+	dominant-baseline: hanging;
 }
 
 #glasses {

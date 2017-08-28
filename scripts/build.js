@@ -6,26 +6,19 @@ $(window).on("resize", function() {
 	render();
 });
 
-d3.json("data/boxes.json", function(e, d) {
-	if (e) throw e;
-	render();
-	window.setInterval(function(){
-		$("#occ").text(occs[getRandomInt(0, occs.length)]);
-		}, 1500);
-});
-
 var svg = d3.select(".top-content").append("svg").attr("width", "100%").attr("height", "100%"),
-	tGroup = svg.selectAll(".content"),
-	aGroup = svg.append("g").selectAll(".about");
+	tGroup = svg.selectAll(".content");
 
-
+render();
+window.setInterval(function(){
+	$("#occ").text(occs[getRandomInt(0, occs.length)]);
+}, 1500);
 
 function render() {
 	width = $(".container-fluid").width();
 	$(".top-content").height(Math.max($(window).height() * 0.5, 500));
 	$(".bottom-content").height($(window).height() * 0.5);
 	tHeight = $(".top-content").height();
-	console.log(tHeight);
 
 	buildTopContent();
 }
@@ -52,7 +45,7 @@ function buildTopContent() {
 
 	tGroup.select("image")
 		.attr("width", width * 0.8)
-		.attr("height", tHeight * 0.5);
+		.attr("height", tHeight * 0.6);
 	
 	tGroup.select("text")
 		.attr("x", (width * 0.8) / 2)
