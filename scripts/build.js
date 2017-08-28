@@ -1,6 +1,18 @@
-var width, tHeight;
-var occs = ["programmer", "designer", "prototyper", "creator", "data scientist", "student",
-			"software developer", "thinker", "gamer", "writer", "consultant", "communicator"];
+var occs = [
+	{title: "student",img: "images/graphics/student.png"},
+	{title: "programmer",img:"images/graphics/keyboard.png"},
+	{title: "thinker",img:"images/graphics/thinking.png"},
+	{title: "designer", img:"images/graphics/design.png"},
+	{title: "data scientist",img:"images/graphics/harddrive.png"},
+	{title: "gamer", img: "images/graphics/controller.png"},
+	{title: "creator", img:"images/graphics/brain.png"},
+	{title: "prototyper",img:"images/graphics/tools.png"},
+	{title: "communicator", img:"images/graphics/phone.png"},
+	{title:"consultant",img:"images/graphics/meeting.png"},
+	{title:"writer",img:"images/graphics/typewriter.png"}
+]
+
+var width, mid, tHeight;
 
 $(window).on("resize", function() {
 	render();
@@ -10,12 +22,19 @@ var svg = d3.select(".top-content").append("svg").attr("width", "100%").attr("he
 	tGroup = svg.selectAll(".content");
 
 render();
+
+var inc = 1;
 window.setInterval(function(){
-	$("#occ").text(occs[getRandomInt(0, occs.length)]);
+	var occ = occs[inc];
+	$("#occ").text(occ.title);
+	tGroup.selectAll(".graphic")
+		.attr("xlink:href", occ.img);
+	inc = (inc === occs.length - 1) ? 0 : (inc + 1);
 }, 1500);
 
 function render() {
 	width = $(".container-fluid").width();
+	mid = width / 2;
 	$(".top-content").height(Math.max($(window).height() * 0.5, 500));
 	$(".bottom-content").height($(window).height() * 0.5);
 	tHeight = $(".top-content").height();
@@ -24,15 +43,27 @@ function render() {
 }
 
 function buildTopContent() {
+
+	var groupWidth = width * 0.8;
+	var picHeight = tHeight * 0.6;
 	// DATA JOIN
-	tGroup = tGroup.data([{i:"images/glasses.png",text:"I am a <tspan id='occ'>programmer</tspan>."}]);
+	tGroup = tGroup.data([{i:"images/glasses.png",text:"I am a <tspan id='occ'>student</tspan>."}]);
 
 	// ENTER
 	ntc = tGroup.enter().append("g")
 		.attr("class", "top-content-group");
 
 	ntc.append("image")
-		.attr("xlink:href", function(d){return d.i;});
+		.attr("xlink:href", function(d){return d.i;})
+		.attr("class", "glasses-pic");
+
+	ntc.append("image")
+		.attr("xlink:href", "images/graphics/student.png")
+		.attr("class", "lens-graphic-right graphic");
+
+	ntc.append("image")
+		.attr("xlink:href", "images/graphics/student.png")
+		.attr("class", "lens-graphic-left graphic");
 
 	ntc.append("text")
 		.html(function(d){return d.text;})
@@ -43,9 +74,24 @@ function buildTopContent() {
 	tGroup
 		.attr("transform", "translate(" + (width * 0.1) + "," + (tHeight * 0.1) + ")");
 
-	tGroup.select("image")
-		.attr("width", width * 0.8)
-		.attr("height", tHeight * 0.6);
+	tGroup.select(".glasses-pic")
+		.attr("width", groupWidth)
+		.attr("height", picHeight);
+
+	var overWidth = groupWidth > 660;
+	var dimensions = overWidth ? 170 : groupWidth * 0.26;
+
+	tGroup.selectAll(".lens-graphic-right")
+		.attr("width", dimensions)
+		.attr("height", dimensions)
+		.attr("x", groupWidth / 2 + (overWidth ? 85 : (groupWidth * 0.125)))
+		.attr("y", overWidth ? 75 : (picHeight / 2 - groupWidth * 0.12));
+
+	tGroup.selectAll(".lens-graphic-left")
+		.attr("width", dimensions)
+		.attr("height", dimensions)
+		.attr("x", groupWidth / 2 - (overWidth ? 85 : (groupWidth * 0.125)) - dimensions)
+		.attr("y", overWidth ? 75 : (picHeight / 2 - groupWidth * 0.12));
 	
 	tGroup.select("text")
 		.attr("x", (width * 0.8) / 2)
