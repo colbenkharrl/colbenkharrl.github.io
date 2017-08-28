@@ -32,7 +32,7 @@ function buildTopContent() {
 		.attr("class", "top-content-group");
 
 	ntc.append("image")
-		.attr("x:href", function(d){return d.i;});
+		.attr("xlink:href", function(d){return d.i;});
 
 	ntc.append("text")
 		.html(function(d){return d.text;})
