@@ -1,5 +1,6 @@
-var boxData, width, even, tHeight;
-var occs = ["programmer", "designer", "prototyper", "creator", "data scientist", "student", "developer", "thinker", "gamer", "writer", "consultant", "communicator"];
+var width, tHeight;
+var occs = ["programmer", "designer", "prototyper", "creator", "data scientist", "student",
+			"software developer", "thinker", "gamer", "writer", "consultant", "communicator"];
 
 $(window).on("resize", function() {
 	render();
@@ -14,15 +15,14 @@ d3.json("data/boxes.json", function(e, d) {
 	render();
 	window.setInterval(function(){
 		$("#occ").text(occs[getRandomInt(0, occs.length)]);
-	  }, 2000);
+	  }, 1500);
 })
 
 function render() {
 	width = $(".container-fluid").width();
-	$(".top-content").height(Math.min(500, Math.max(width)));
+	$(".top-content").height(Math.min($(window).height() * 0.5), 600);
 	tHeight = $(".top-content").height();
 	console.log(tHeight);
-	even = width > 960;
 
 	buildTopContent();
 }

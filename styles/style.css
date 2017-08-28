@@ -12,6 +12,28 @@ html {
 	background-color: white;
 }
 
+.mid-nav {
+	background-color: #fffaea;
+}
+
+.mid-nav a.nav-link {
+	padding: 8px 50px;
+	font-family: 'Oswald', serif;
+	font-weight: 600;
+	font-size: 24px;
+	color: #000;
+}
+
+.mid-nav a.nav-link:hover,
+.mid-nav a.nav-link:focus,
+.mid-nav a.nav-link:active {
+	color: #89b6ff;
+}
+.mid-nav a.nav-link:focus,
+.mid-nav a.nav-link:active {
+	text-decoration: underline;
+}
+
 .bottom-content {
 	background-color: #89b6ff;
 	height: 500px;
@@ -76,6 +98,7 @@ html {
 .navbar .navbar-nav .dropdown-menu {
   background-color: #ffffff;
   border-color: #000000;
+  border: none;
 }
 .navbar .navbar-nav .dropdown-menu .dropdown-item {
   color: #000000;
@@ -83,11 +106,8 @@ html {
 .navbar .navbar-nav .dropdown-menu .dropdown-item:hover,
 .navbar .navbar-nav .dropdown-menu .dropdown-item:focus,
 .navbar .navbar-nav .dropdown-menu .dropdown-item.active {
-  color: #ffffff;
-  background-color: #000000;
-}
-.navbar .navbar-nav .dropdown-menu .dropdown-divider {
-  border-top-color: #000000;
+  color: #fffaea;
+  background-color: #89b6ff;
 }
 .navbar .navbar-nav .nav-item.active .nav-link,
 .navbar .navbar-nav .nav-item.active .nav-link:hover,
@@ -95,8 +115,8 @@ html {
 .navbar .navbar-nav .nav-item.show .nav-link,
 .navbar .navbar-nav .nav-item.show .nav-link:hover,
 .navbar .navbar-nav .nav-item.show .nav-link:focus {
-  color: #ffffff;
-  background-color: #89b6ff;
+  color: #000;
+  background-color: #fffaea;
 }
 .navbar .navbar-toggle {
   border-color: #000000;
