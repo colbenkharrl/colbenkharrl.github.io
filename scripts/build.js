@@ -35,17 +35,16 @@ window.setInterval(function(){
 function render() {
 	width = $(".container-fluid").width();
 	mid = width / 2;
-	$(".top-content").height(Math.max($(window).height() * 0.5, 500));
+	$(".top-content").height(Math.min(width * 0.7, 500));
 	$(".bottom-content").height($(window).height() * 0.5);
-	tHeight = $(".top-content").height();
-
 	buildTopContent();
 }
 
 function buildTopContent() {
 
-	var picHeight = tHeight * 0.6;
-	var groupWidth = picHeight * 2.21;
+	var groupWidth = Math.min(width * 0.8, 800);
+	var picHeight = groupWidth * 0.453;
+
 	// DATA JOIN
 	tGroup = tGroup.data([{i:"images/glasses.png",text:"I am a <tspan id='occ'>student</tspan>."}]);
 
@@ -72,31 +71,30 @@ function buildTopContent() {
 	tGroup = tGroup.merge(ntc);
 
 	tGroup
-		.attr("transform", "translate(" + (mid - groupWidth / 2) + "," + (tHeight * 0.1) + ")");
+		.attr("transform", "translate(" + (mid - groupWidth / 2) + ",0)");
 
 	tGroup.select(".glasses-pic")
-		.attr("x", 0)
 		.attr("width", groupWidth)
 		.attr("height", picHeight);
 
 	var overWidth = groupWidth > 660;
-	var dimensions = overWidth ? 170 : groupWidth * 0.26;
+	var dimensions = groupWidth * 0.26;
 
 	tGroup.selectAll(".lens-graphic-right")
 		.attr("width", dimensions)
 		.attr("height", dimensions)
-		.attr("x", groupWidth / 2 + 80)
-		.attr("y", 75);
+		.attr("x", groupWidth / 2 + groupWidth * 0.13)
+		.attr("y", picHeight * 0.25);
 
 	tGroup.selectAll(".lens-graphic-left")
 		.attr("width", dimensions)
 		.attr("height", dimensions)
-		.attr("x", groupWidth / 2 - 80 - dimensions)
-		.attr("y", 75);
+		.attr("x", groupWidth / 2 - groupWidth * 0.13 - dimensions)
+		.attr("y", picHeight * 0.25);
 	
 	tGroup.select("text")
 		.attr("x", groupWidth / 2)
-		.attr("y", tHeight * 0.6)
+		.attr("y", picHeight + 20)
 		.attr("font-size", Math.min(40, width * 0.1));
 }
 
