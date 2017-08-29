@@ -36,7 +36,7 @@ function render() {
 	width = $(".container-fluid").width();
 	mid = width / 2;
 	$(".top-content").height(Math.min(width * 0.7, 500));
-	$(".bottom-content").height($(window).height() * 0.5);
+	$(".bottom-content").height($(window).height() * 0.7);
 	buildTopContent();
 }
 
