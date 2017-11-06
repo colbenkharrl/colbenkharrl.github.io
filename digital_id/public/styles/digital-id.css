@@ -1,0 +1,250 @@
+html {
+    padding-top: 65px;
+}
+
+.nav-image {
+	padding: 5px;
+	padding-left: 20px;
+}
+
+.navbar {
+    background-color: #0077b0;
+}
+
+a.navbar-brand {
+	color: #9ee1ff;
+	cursor: pointer;
+}
+
+a.navbar-brand.active {
+	color: #FFF;
+}
+
+a.navbar-brand:hover,
+a.navbar-brand:active,
+a.navbar-brand:focus {
+	color: #FFF;
+}
+
+a.scenario-btn {
+	font-family: 'Source Sans Pro', Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+.event-did {
+    font-family: 'Oswald', sans-serif;
+    vertical-align: middle;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+#dash-id {
+    display: inline;
+    line-height: inherit;
+    vertical-align: middle;
+}
+
+.digital-id {
+    background-color: #F4F4F4;
+}
+
+.digital-id .rel-link {
+    stroke: #c0c3c4;
+    fill: white;
+}
+
+.digital-id .global-link-legend {
+    stroke: #c0c3c4;
+    fill: white;
+}
+
+.digital-id .hidden {
+    display: none;
+}
+
+.digital-id .transparent {
+    opacity: 0;
+}
+
+.digital-id .did {
+    fill: #FFF;
+    stroke: #E34900;
+}
+
+.digital-id .smartID {
+    fill: #81d4fa;
+    stroke: #46b1f9;
+}
+
+.digital-id .exactID {
+    fill: #0099e1;
+    stroke: #0280b2;
+}
+
+.digital-id .email {
+    fill: #149966;
+    stroke: #036351;
+}
+
+.digital-id .accnum {
+    fill: #F93A2F;
+    stroke: #CF281E;
+}
+
+.digital-id .acclog {
+    fill: #3C4FBB;
+    stroke: #170C84;
+}
+
+.digital-id .acctel {
+	stroke: #0196A7;
+	fill: #00C4CE;
+
+}
+
+.digital-id .accname {
+    fill: #F8C300;
+    stroke: #FF9800;
+}
+
+.digital-id .ssn {
+    fill: #517087;
+    stroke: #273E52;
+}
+
+.digital-id .shipaddr {
+    fill: #9C72B5;
+    stroke: #A552BC;
+}
+
+.digital-id .accaddr {
+    fill: #93278F;
+    stroke: #591859;
+}
+
+.digital-id .cch {
+    fill: #57D3AD;
+    stroke: #0AA587;
+}
+
+.digital-id .achnum {
+    fill: #FF028C;
+    stroke: #BE0161;
+}
+
+.digital-id .local.lNode {
+    stroke: #686868;
+    fill: #B5B5B5;
+}
+
+.digital-id .global.lNode {
+    stroke: #686868;
+    fill: white;
+}
+
+.digital-id .related.lNode {
+    display: none;
+}
+
+.digital-id .line-icon {
+    display: none;
+}
+
+.digital-id .line-icon.related {
+    stroke: #50B2D3;
+    display: inline;
+}
+
+.digital-id .non-local {
+    fill: white;
+}
+
+.digital-id text.nodeLabel,
+.digital-id text.nodeData,
+.digital-id text.tabText {
+    fill: #4D4D4D;
+}
+
+.digital-id text.legendText {
+    fill: #8C8C8C;
+}
+
+.digital-id .filtered {
+    opacity: 0.3;
+}
+
+.digital-id .unfocused {
+    opacity: 0.1;
+}
+
+.digital-id .confidence rect {
+    fill: #E66C18;
+}
+
+.digital-id .entities rect {
+    fill: #74b457;
+}
+
+.digital-id .first-seen rect {
+    fill: #477fcf;
+}
+
+.digital-id .last-seen rect {
+    fill: #a74bbf;
+}
+
+.digital-id .didLabelText {
+    font-weight: 700;
+    fill: #8C8C8C;
+}
+
+.digital-id .didDataText {
+    font-family: 'Oswald', sans-serif;
+    fill: #4D4D4D;
+}
+
+.digital-id .panelTitle {
+    font-family: 'Oswald', sans-serif;
+    fill: #4D4D4D;
+    font-size: 20px;
+    dominant-baseline: hanging;
+}
+
+.digital-id .entity-detail-label {
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
+    fill: #4D4D4D;
+    dominant-baseline: middle;
+}
+
+.digital-id .entity-detail-data {
+    fill: #8C8C8C;
+    dominant-baseline: middle;
+}
+
+.digital-id .state-group {
+    background-color: #b2b2b2;
+}
+
+.digital-id text {
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.digital-id text::selection {
+    background: none;
+}
+
+.digital-id .interactive-element:hover {
+    cursor: pointer;
+}
+
+.digital-id text.riskProfile {
+    font-size: 14px;
+    dominant-baseline: middle;
+    text-anchor: middle;
+    pointer-events: none;
+}

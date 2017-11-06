@@ -1,0 +1,61 @@
+.event-dash {
+	background-color: #F4F4F4;
+	padding: 5px 20px 10px 20px;
+	margin-top: -5px;
+}
+
+.event-dash .row-group {
+	overflow: visible;
+}
+
+.event-dash .row-title {
+	font-family: 'Oswald', sans-serif;
+    fill: #4D4D4D;
+    font-size: 20px;
+    font-weight: 700;
+	dominant-baseline: hanging;
+}
+
+.event-dash text.row {
+	font-family: 'Source Sans Pro', Helvetica, sans-serif;
+    fill: #4D4D4D;
+}
+
+.event-dash text.x-axis-label,
+.event-dash text.y-axis-label {
+	font-family: 'Source Sans Pro', Helvetica, sans-serif;
+	fill: #4D4D4D;
+	font-weight: 700;
+}
+
+.event-dash #selection-count {
+	font-family: 'Source Sans Pro', Helvetica, sans-serif;
+	fill: #4D4D4D;
+}
+
+
+.event-dash .row-reset {
+	font-size: 12px;
+	fill: #599AC9;
+	dominant-baseline: hanging;
+	text-decoration: underline;
+	text-anchor: end;
+}
+
+.event-dash #selected,
+.event-dash #total {
+	font-weight: bold;
+}
+
+.event-dash #reset-all {
+	color: #599AC9;
+	text-decoration: underline;
+}
+
+.event-dash .dc-chart g.row text {
+	fill: black;
+}
+
+.event-dash .hidden {
+	display: none;
+}

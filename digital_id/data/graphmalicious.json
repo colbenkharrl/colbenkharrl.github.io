@@ -1,0 +1,735 @@
+{
+	"digitalIdentifier": "7acab466898b43c7a8bd03f595ce7dda",
+	"orgId": "pdj3oyez",
+	"apiVersion": "0",
+	"attributeName": "digital_id",
+	"firstSeen": "1500361890",
+	"entities": [
+		{
+			"attributeName": "digital_id",
+			"nameMode": "non_pii",
+			"name": "00..d7b9f34b4c569c132b9f81f92500",
+			"scope": "local",
+			"id": "0",
+			"firstSeen": "1500364082",
+			"lastSeen": "1507362482",
+			"risk": "-50",
+			"confidence": "95.9"
+		},
+		{
+			"attributeName": "device_id",
+			"nameMode": "non_pii",
+			"name": "10..d7b9f34b4c569c132b9f81f92510",
+			"scope": "local",
+			"id": "10",
+			"firstSeen": "1500364082",
+			"lastSeen": "1505375282",
+			"os": "Windows",
+            "risk": "-5"
+		},
+		{
+			"attributeName": "account_email",
+			"nameMode": "non_pii",
+			"name": "breached_email0@gmail.com",
+			"scope": "local",
+			"id": "30",
+			"firstSeen": "1500374082",
+			"lastSeen": "1507362482",
+            "risk": "-5"
+        },
+		{
+			"attributeName": "device_id",
+			"nameMode": "non_pii",
+			"name": "11..d7b9f34b4c569c132b9f81f92511",
+			"scope": "local",
+			"id": "11",
+			"firstSeen": "1500364082",
+			"lastSeen": "1505375282",
+			"os": "Windows",
+            "risk": "-20"
+		},
+		{
+			"attributeName": "account_email",
+			"nameMode": "non_pii",
+			"name": "breached_email1@gmail.com",
+			"scope": "local",
+			"id": "31",
+			"firstSeen": "1500374082",
+			"lastSeen": "1507362482",
+            "risk": "-20"
+        },
+		{
+			"attributeName": "device_id",
+			"nameMode": "non_pii",
+			"name": "12..d7b9f34b4c569c132b9f81f92512",
+			"scope": "local",
+			"id": "12",
+			"firstSeen": "1500364082",
+			"lastSeen": "1505375282",
+			"os": "Windows",
+            "risk": "-20"
+		},
+		{
+			"attributeName": "account_email",
+			"nameMode": "non_pii",
+			"name": "breached_email2@gmail.com",
+			"scope": "local",
+			"id": "32",
+			"firstSeen": "1500374082",
+			"lastSeen": "1507362482",
+            "risk": "-20"
+        },
+		{
+			"attributeName": "device_id",
+			"nameMode": "non_pii",
+			"name": "13..d7b9f34b4c569c132b9f81f92513",
+			"scope": "local",
+			"id": "13",
+			"firstSeen": "1500364082",
+			"lastSeen": "1505375282",
+			"os": "Windows",
+            "risk": "-20"
+		},
+		{
+			"attributeName": "account_email",
+			"nameMode": "non_pii",
+			"name": "breached_email3@gmail.com",
+			"scope": "local",
+			"id": "33",
+			"firstSeen": "1500374082",
+			"lastSeen": "1507362482",
+            "risk": "-20"
+        },
+		{
+			"attributeName": "device_id",
+			"nameMode": "non_pii",
+			"name": "14..d7b9f34b4c569c132b9f81f92514",
+			"scope": "local",
+			"id": "14",
+			"firstSeen": "1500364082",
+			"lastSeen": "1505375282",
+			"os": "Windows",
+            "risk": "-20"
+		},
+		{
+			"attributeName": "account_email",
+			"nameMode": "non_pii",
+			"name": "breached_email4@gmail.com",
+			"scope": "local",
+			"id": "34",
+			"firstSeen": "1500374082",
+			"lastSeen": "1507362482",
+            "risk": "-20"
+        },
+		{
+			"attributeName": "device_id",
+			"nameMode": "non_pii",
+			"name": "15..d7b9f34b4c569c132b9f81f92515",
+			"scope": "local",
+			"id": "15",
+			"firstSeen": "1500364082",
+			"lastSeen": "1505375282",
+			"os": "Windows",
+            "risk": "-20"
+		},
+		{
+			"attributeName": "account_email",
+			"nameMode": "non_pii",
+			"name": "breached_email5@gmail.com",
+			"scope": "local",
+			"id": "35",
+			"firstSeen": "1500374082",
+			"lastSeen": "1507362482",
+            "risk": "-20"
+        },
+		{
+			"attributeName": "device_id",
+			"nameMode": "non_pii",
+			"name": "16..d7b9f34b4c569c132b9f81f92516",
+			"scope": "local",
+			"id": "16",
+			"firstSeen": "1500364082",
+			"lastSeen": "1505375282",
+			"os": "Windows",
+            "risk": "-20"
+		},
+		{
+			"attributeName": "account_email",
+			"nameMode": "non_pii",
+			"name": "breached_email6@gmail.com",
+			"scope": "local",
+			"id": "36",
+			"firstSeen": "1500374082",
+			"lastSeen": "1507362482",
+            "risk": "-20"
+        },
+		{
+			"attributeName": "device_id",
+			"nameMode": "non_pii",
+			"name": "17..d7b9f34b4c569c132b9f81f92517",
+			"scope": "local",
+			"id": "17",
+			"firstSeen": "1500364082",
+			"lastSeen": "1505375282",
+			"os": "Windows",
+            "risk": "-20"
+		},
+		{
+			"attributeName": "account_email",
+			"nameMode": "non_pii",
+			"name": "breached_email7@gmail.com",
+			"scope": "local",
+			"id": "37",
+			"firstSeen": "1500374082",
+			"lastSeen": "1507362482",
+            "risk": "-20"
+        },
+		{
+			"attributeName": "device_id",
+			"nameMode": "non_pii",
+			"name": "18..d7b9f34b4c569c132b9f81f92518",
+			"scope": "local",
+			"id": "18",
+			"firstSeen": "1500364082",
+			"lastSeen": "1505375282",
+			"os": "Windows",
+            "risk": "-20"
+		},
+		{
+			"attributeName": "account_email",
+			"nameMode": "non_pii",
+			"name": "breached_email8@gmail.com",
+			"scope": "local",
+			"id": "38",
+			"firstSeen": "1500374082",
+			"lastSeen": "1507362482",
+            "risk": "-20"
+        },
+		{
+			"attributeName": "fuzzy_device_id",
+			"nameMode": "non_pii",
+			"name": "20..d7b9f34b4c569c132b9f81f92520",
+			"scope": "local",
+			"id": "20",
+			"firstSeen": "1500364082",
+			"lastSeen": "1505375282",
+			"os": "Windows",
+            "risk": "0"
+		}
+	],
+	"relationships_digital_id": [
+		{
+			"id1": "0",
+			"id2": "10",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "0",
+			"id2": "11",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "0",
+			"id2": "12",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "0",
+			"id2": "13",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "0",
+			"id2": "14",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "0",
+			"id2": "15",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "0",
+			"id2": "16",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "0",
+			"id2": "17",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "0",
+			"id2": "18",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "0",
+			"id2": "20",
+			"count": "10",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "0",
+			"id2": "30",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "0",
+			"id2": "31",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "0",
+			"id2": "32",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "0",
+			"id2": "33",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "0",
+			"id2": "34",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "0",
+			"id2": "35",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "0",
+			"id2": "36",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "0",
+			"id2": "37",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "0",
+			"id2": "38",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		}
+	],
+	"relationships_related_entities": [
+		{
+			"id1": "20",
+			"id2": "10",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "20",
+			"id2": "11",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "20",
+			"id2": "12",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "20",
+			"id2": "13",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "20",
+			"id2": "14",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "20",
+			"id2": "15",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "20",
+			"id2": "16",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "20",
+			"id2": "17",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "20",
+			"id2": "18",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "10",
+			"id2": "30",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "11",
+			"id2": "31",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "12",
+			"id2": "32",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "13",
+			"id2": "33",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "14",
+			"id2": "34",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "15",
+			"id2": "35",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "16",
+			"id2": "36",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "17",
+			"id2": "37",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "18",
+			"id2": "38",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "20",
+			"id2": "30",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		}
+		,
+		{
+			"id1": "20",
+			"id2": "31",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		}
+		,
+		{
+			"id1": "20",
+			"id2": "32",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		}
+		,
+		{
+			"id1": "20",
+			"id2": "33",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		}
+		,
+		{
+			"id1": "20",
+			"id2": "34",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		}
+		,
+		{
+			"id1": "20",
+			"id2": "35",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "20",
+			"id2": "36",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "20",
+			"id2": "37",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		},
+		{
+			"id1": "20",
+			"id2": "38",
+			"count": "1",
+			"eventTimes": [
+				"1500361082",
+				"1500361094",
+				"1500361097",
+				"1500361890"
+			]
+		}
+	]
+}
