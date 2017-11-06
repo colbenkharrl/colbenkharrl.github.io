@@ -12,23 +12,14 @@ html {
 	background-color: white;
 }
 
-.mid-nav {
-	background-color: #fffaea;
-  border-top: 2px solid #d8d8d8;
-  border-bottom: 5px solid #6285bc;
-}
-
-.mid-nav a.nav-link {
-	padding: 8px 70px;
-	font-family: 'Oswald', serif;
-	font-size: 24px;
-	color: #000;
-}
-
-.mid-nav a.nav-link:hover,
-.mid-nav a.nav-link:focus,
-.mid-nav a.nav-link:active {
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:active {
 	color: #89b6ff;
+}
+
+.navbar-collapse {
+	padding-left: 25px;
 }
 
 .bottom-content {
