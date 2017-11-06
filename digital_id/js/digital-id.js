@@ -170,8 +170,7 @@ function viz(elt) {
             type: "Exact ID",
             typeCode: "exactID",
             id: "1",
-            image: "public/images/device",
-            filtered: true
+            image: "public/images/device"
         },
         {
             type: "Account Email",
